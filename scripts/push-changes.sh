@@ -1,6 +1,7 @@
-#! /bin/sh
+#!/bin/bash
 
 
-git add .
-git commit -m $1
+git add .  
+read -p "Commit description: " desc  
+git commit -m "$desc"
 git push
