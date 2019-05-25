@@ -1,22 +1,33 @@
 {
   "name": "bash-deploy-script-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server/index.js",
-  "scripts": {
-    "start": "node ./server/index"
+  "author": {
+    "name": "Brian Tam",
+    "email": "briantam23@gmail.com",
+    "url": "https://briantam23.github.io"
   },
+  "contributors": [
+    {
+      "name": "Brian Tam",
+      "email": "briantam23@gmail.com",
+      "url": "https://briantam23.github.io"
+    }
+  ],
+  "homepage": "https://github.com/briantam23/bash-deploy-script-test#readme",
+  "version": "1.0.0",
+  "description": "Testing a Bash Deploy Script",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/briantam23/bash-deploy-script-test.git"
   },
-  "keywords": [],
-  "author": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node ./server/index"
+  },
+  "keywords": ["bash-scripting", "heroku"],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/briantam23/bash-deploy-script-test/issues"
   },
-  "homepage": "https://github.com/briantam23/bash-deploy-script-test#readme",
   "dependencies": {
     "express": "^4.17.0"
   }
