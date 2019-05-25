@@ -1,0 +1,23 @@
+{
+  "name": "bash-deploy-script-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node ./server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briantam23/bash-deploy-script-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briantam23/bash-deploy-script-test/issues"
+  },
+  "homepage": "https://github.com/briantam23/bash-deploy-script-test#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
